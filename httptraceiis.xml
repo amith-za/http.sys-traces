@@ -1,0 +1,1318 @@
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Guid="{9e814aad-3204-11d2-9a82-006008a86939}" />
+		<EventID>0</EventID>
+		<Version>2</Version>
+		<Level>0</Level>
+		<Task>0</Task>
+		<Opcode>0</Opcode>
+		<Keywords>0x0</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:06.788429600Z" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="20368" ThreadID="5760" ProcessorID="0" KernelTime="0" UserTime="15" />
+		<Channel />
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="BufferSize">    8192</Data>
+		<Data Name="Version">83951626</Data>
+		<Data Name="ProviderVersion">   10586</Data>
+		<Data Name="NumberOfProcessors">       8</Data>
+		<Data Name="EndTime">131035731737627756</Data>
+		<Data Name="TimerResolution">  156250</Data>
+		<Data Name="MaxFileSize">       0</Data>
+		<Data Name="LogFileMode">0x0</Data>
+		<Data Name="BuffersWritten">       6</Data>
+		<Data Name="StartBuffers">       1</Data>
+		<Data Name="PointerSize">       8</Data>
+		<Data Name="EventsLost">       0</Data>
+		<Data Name="CPUSpeed">    2195</Data>
+		<Data Name="LoggerName">0x9</Data>
+		<Data Name="LogFileName">0x6</Data>
+		<Data Name="BootTime">131032804304944838</Data>
+		<Data Name="PerfFreq">2143482</Data>
+		<Data Name="StartTime">131035731667884296</Data>
+		<Data Name="ReservedFlags">0x1</Data>
+		<Data Name="BuffersLost">       0</Data>
+		<Data Name="SessionNameString">httptrace</Data>
+		<Data Name="LogFileNameString">C:\Users\Amith\httptrace.etl</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Opcode>Header</Opcode>
+		<Provider>MSNT_SystemTrace</Provider>
+		<EventName xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">EventTrace</EventName>
+	</RenderingInfo>
+	<ExtendedTracingInfo xmlns="http://schemas.microsoft.com/win/2004/08/events/trace">
+		<EventGuid>{68fdd900-4a3e-11d1-84f4-0000f80464e3}</EventGuid>
+	</ExtendedTracingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>21</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>4</Task>
+		<Opcode>28</Opcode>
+		<Keywords>0x8000000000000010</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.353230200Z" />
+		<Correlation ActivityID="{2a9bfedd-85a4-0003-ecf3-9e2aa485d101}" />
+		<Execution ProcessID="4" ThreadID="19020" ProcessorID="3" KernelTime="120" UserTime="0" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="ConnectionObj">0xFFFFE000F75EBAE0</Data>
+		<Data Name="LocalAddrLength">      28</Data>
+		<Data Name="LocalAddr">[::1]:80</Data>
+		<Data Name="RemoteAddrLength">      28</Data>
+		<Data Name="RemoteAddr">[::1]:32832</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>ConnConnect </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events occurring on a connection </Keyword>
+		</Keywords>
+		<Task>HTTP Connection Trace Task </Task>
+		<Message>New connection created (local IP address [::1]:80 and remote address [::1]:32832). </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>22</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>4</Task>
+		<Opcode>55</Opcode>
+		<Keywords>0x8000000000000012</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.353447100Z" />
+		<Correlation ActivityID="{2a9bfedd-85a4-0003-ecf3-9e2aa485d101}" />
+		<Execution ProcessID="4" ThreadID="15628" ProcessorID="4" KernelTime="0" UserTime="0" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="RequestId">0xE30000048000001F</Data>
+		<Data Name="ConnectionId">0xE30000046000001E</Data>
+		<Data Name="ConnectionObj">0xFFFFE000F84B0890</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>ConnIdAssgn </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events dealing with request processing </Keyword>
+			<Keyword>Flagged on all HTTP events occurring on a connection </Keyword>
+		</Keywords>
+		<Task>HTTP Connection Trace Task </Task>
+		<Message>Connection ID (0xE30000046000001E) assigned to connection and request (request ID 0xE30000048000001F) will be parsed. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>1</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>1</Task>
+		<Opcode>11</Opcode>
+		<Keywords>0x8000000000000102</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.353447600Z" />
+		<Correlation ActivityID="{2a9bfedd-85a4-0003-ecf3-9e2aa485d101}" RelatedActivityID="{8000001f-0004-e300-b63f-84710c7967bb}" />
+		<Execution ProcessID="4" ThreadID="15628" ProcessorID="4" KernelTime="0" UserTime="0" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="RequestId">0xE30000048000001F</Data>
+		<Data Name="ConnectionId">0xE30000046000001E</Data>
+		<Data Name="RemoteAddrLength">      28</Data>
+		<Data Name="RemoteAddr">[::1]:32832</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>RecvReq </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events dealing with request processing </Keyword>
+			<Keyword>Flagged on all HTTP events triggered on a request queue </Keyword>
+		</Keywords>
+		<Task>HTTP Request Trace Task </Task>
+		<Message>Request received (request ID 0xE30000048000001F) on connection (connection ID 0xE30000046000001E) from remote address [::1]:32832. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>2</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>1</Task>
+		<Opcode>12</Opcode>
+		<Keywords>0x8000000000000002</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.353461600Z" />
+		<Correlation ActivityID="{8000001f-0004-e300-b63f-84710c7967bb}" />
+		<Execution ProcessID="4" ThreadID="15628" ProcessorID="4" KernelTime="0" UserTime="0" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="RequestObj">0xFFFFE00100A6D010</Data>
+		<Data Name="HttpVerb">       6</Data>
+		<Data Name="Url">http://localhost:80/WCFTest/Test.svc?request=iis</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>Parse </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events dealing with request processing </Keyword>
+		</Keywords>
+		<Task>HTTP Request Trace Task </Task>
+		<Message>Parsed request (request pointer 0xFFFFE00100A6D010, method 6) with URI http://localhost:80/WCFTest/Test.svc?request=iis. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>3</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>1</Task>
+		<Opcode>13</Opcode>
+		<Keywords>0x8000000000000102</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.441907900Z" />
+		<Correlation ActivityID="{8000001f-0004-e300-b63f-84710c7967bb}" />
+		<Execution ProcessID="7216" ThreadID="15368" ProcessorID="0" KernelTime="0" UserTime="30" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="RequestObj">0xFFFFE00100A6D010</Data>
+		<Data Name="RequestId">0xE30000048000001F</Data>
+		<Data Name="SiteId">       1</Data>
+		<Data Name="RequestQueueName">DefaultAppPool</Data>
+		<Data Name="Url">http://localhost:80/WCFTest/Test.svc?request=iis</Data>
+		<Data Name="Status">       0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>Deliver </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events dealing with request processing </Keyword>
+			<Keyword>Flagged on all HTTP events triggered on a request queue </Keyword>
+		</Keywords>
+		<Task>HTTP Request Trace Task </Task>
+		<Message>Delivered request to server application (request pointer 0xFFFFE00100A6D010, request ID 0xE30000048000001F, site ID 1) from request queue DefaultAppPool for URI http://localhost:80/WCFTest/Test.svc?request=iis with status 0. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>9</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>1</Task>
+		<Opcode>18</Opcode>
+		<Keywords>0x8000000000000006</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.722591800Z" />
+		<Correlation ActivityID="{8000001f-0004-e300-b63f-84710c7967bb}" />
+		<Execution ProcessID="7216" ThreadID="3924" ProcessorID="3" KernelTime="0" UserTime="15" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="RequestId">0xE30000048000001F</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>FastRespLast </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events dealing with request processing </Keyword>
+			<Keyword>Flagged on all HTTP events dealing with response handling </Keyword>
+		</Keywords>
+		<Task>HTTP Request Trace Task </Task>
+		<Message>Server application passed the last response (corresponding to request ID 0xE30000048000001F). </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>82</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>6</Task>
+		<Opcode>92</Opcode>
+		<Keywords>0x8000000000000400</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.722606300Z" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="7216" ThreadID="3924" ProcessorID="3" KernelTime="0" UserTime="15" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<ProcessingErrorData>
+		<ErrorCode>15005</ErrorCode>
+		<DataItemName />
+		<EventPayload>00000100000000000000</EventPayload>
+	</ProcessingErrorData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>ChannelBindConfigCapture </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events handling authentication (SSPI) and authentication cache </Keyword>
+		</Keywords>
+		<Task>HTTP Authentication Trace Task </Task>
+		<Message>Captured channel bind config. Hardening 0, flags 0x100, service count 0 </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>5</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>1</Task>
+		<Opcode>15</Opcode>
+		<Keywords>0x8000000000000006</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.722612800Z" />
+		<Correlation ActivityID="{8000001f-0004-e300-b63f-84710c7967bb}" />
+		<Execution ProcessID="7216" ThreadID="3924" ProcessorID="3" KernelTime="0" UserTime="15" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="RequestId">0xE30000048000001F</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>RecvRespLast </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events dealing with request processing </Keyword>
+			<Keyword>Flagged on all HTTP events dealing with response handling </Keyword>
+		</Keywords>
+		<Task>HTTP Request Trace Task </Task>
+		<Message>Server application passed the last response (corresponding to request ID 0xE30000048000001F). </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>82</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>6</Task>
+		<Opcode>92</Opcode>
+		<Keywords>0x8000000000000400</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.722619800Z" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="7216" ThreadID="3924" ProcessorID="3" KernelTime="0" UserTime="15" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<ProcessingErrorData>
+		<ErrorCode>15005</ErrorCode>
+		<DataItemName />
+		<EventPayload>00000100000000000000</EventPayload>
+	</ProcessingErrorData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>ChannelBindConfigCapture </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events handling authentication (SSPI) and authentication cache </Keyword>
+		</Keywords>
+		<Task>HTTP Authentication Trace Task </Task>
+		<Message>Captured channel bind config. Hardening 0, flags 0x100, service count 0 </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>83</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>6</Task>
+		<Opcode>93</Opcode>
+		<Keywords>0x8000000000000400</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.722621200Z" />
+		<Correlation ActivityID="{8000001f-0004-e300-b63f-84710c7967bb}" />
+		<Execution ProcessID="7216" ThreadID="3924" ProcessorID="3" KernelTime="0" UserTime="15" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="ReplaceConfigOf">DEFAULT_GROUP</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>ChannelBindPerResponseConfig </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events handling authentication (SSPI) and authentication cache </Keyword>
+		</Keywords>
+		<Task>HTTP Authentication Trace Task </Task>
+		<Message>Channel bind response config overwrites DEFAULT_GROUP </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>4</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>1</Task>
+		<Opcode>14</Opcode>
+		<Keywords>0x8000000000000006</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.722625400Z" />
+		<Correlation ActivityID="{8000001f-0004-e300-b63f-84710c7967bb}" />
+		<Execution ProcessID="7216" ThreadID="3924" ProcessorID="3" KernelTime="0" UserTime="15" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="RequestId">0xE30000048000001F</Data>
+		<Data Name="ConnectionId">0xE30000046000001E</Data>
+		<Data Name="StatusCode">401</Data>
+		<Data Name="Verb">POST</Data>
+		<Data Name="HeaderLength">     184</Data>
+		<Data Name="EntityChunkCount">0</Data>
+		<Data Name="CachePolicy">       0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>RecvResp </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events dealing with request processing </Keyword>
+			<Keyword>Flagged on all HTTP events dealing with response handling </Keyword>
+		</Keywords>
+		<Task>HTTP Request Trace Task </Task>
+		<Message>Server application passed response (request ID 0xE30000048000001F, connection ID 0xE30000046000001E, method POST, header length 184, number of entity chunks 0, cache policy 0) with status code 401. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>10</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>1</Task>
+		<Opcode>51</Opcode>
+		<Keywords>0x8000000000000016</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.723779600Z" />
+		<Correlation ActivityID="{8000001f-0004-e300-b63f-84710c7967bb}" />
+		<Execution ProcessID="7216" ThreadID="3924" ProcessorID="3" KernelTime="0" UserTime="15" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="RequestId">0xE30000048000001F</Data>
+		<Data Name="HttpStatus">401</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>SendComplete </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events dealing with request processing </Keyword>
+			<Keyword>Flagged on all HTTP events dealing with response handling </Keyword>
+			<Keyword>Flagged on all HTTP events occurring on a connection </Keyword>
+		</Keywords>
+		<Task>HTTP Request Trace Task </Task>
+		<Message>Response ready for send (corresponding to request ID 0xE30000048000001F) with status code 401. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>50</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>9</Task>
+		<Opcode>60</Opcode>
+		<Keywords>0x8000000000000800</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.724047900Z" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="4" ThreadID="552" ProcessorID="2" KernelTime="0" UserTime="0" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="Handle">0xFFFFFFFF80002578</Data>
+		<Data Name="Type">       0</Data>
+		<Data Name="Group">       0</Data>
+		<Data Name="Format">       0</Data>
+		<Data Name="Filename">\??\C:\inetpub\logs\LogFiles\W3SVC1\u_ex160327.log</Data>
+		<Data Name="SiteId">       0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>LogFileCreate </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events dealing with error log activities </Keyword>
+		</Keywords>
+		<Task>HTTP Logging Trace Task </Task>
+		<Message>Successfully created new ResponseLogging  log file \??\C:\inetpub\logs\LogFiles\W3SVC1\u_ex160327.log. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>51</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>9</Task>
+		<Opcode>61</Opcode>
+		<Keywords>0x8000000000000800</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.724064200Z" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="4" ThreadID="552" ProcessorID="2" KernelTime="0" UserTime="0" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="Status">0x0</Data>
+		<Data Name="Handle">0xFFFFFFFF80002578</Data>
+		<Data Name="Type">       0</Data>
+		<Data Name="Group">       0</Data>
+		<Data Name="Format">       0</Data>
+		<Data Name="ResType">CacheMiss</Data>
+		<Data Name="SiteId">       0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>LogFileWrite </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events dealing with error log activities </Keyword>
+		</Keywords>
+		<Task>HTTP Logging Trace Task </Task>
+		<Message>Entry has been written to ResponseLogging  log file. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>1</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>1</Task>
+		<Opcode>11</Opcode>
+		<Keywords>0x8000000000000102</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.729966700Z" />
+		<Correlation ActivityID="{2a9bfedd-85a4-0003-ecf3-9e2aa485d101}" RelatedActivityID="{80000020-0004-e300-b63f-84710c7967bb}" />
+		<Execution ProcessID="4" ThreadID="15628" ProcessorID="3" KernelTime="0" UserTime="0" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="RequestId">0xE300000480000020</Data>
+		<Data Name="ConnectionId">0xE30000046000001E</Data>
+		<Data Name="RemoteAddrLength">      28</Data>
+		<Data Name="RemoteAddr">[::1]:32832</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>RecvReq </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events dealing with request processing </Keyword>
+			<Keyword>Flagged on all HTTP events triggered on a request queue </Keyword>
+		</Keywords>
+		<Task>HTTP Request Trace Task </Task>
+		<Message>Request received (request ID 0xE300000480000020) on connection (connection ID 0xE30000046000001E) from remote address [::1]:32832. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>2</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>1</Task>
+		<Opcode>12</Opcode>
+		<Keywords>0x8000000000000002</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.729977900Z" />
+		<Correlation ActivityID="{80000020-0004-e300-b63f-84710c7967bb}" />
+		<Execution ProcessID="4" ThreadID="15628" ProcessorID="3" KernelTime="0" UserTime="0" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="RequestObj">0xFFFFE000FF494470</Data>
+		<Data Name="HttpVerb">       6</Data>
+		<Data Name="Url">http://localhost:80/WCFTest/Test.svc?request=iis</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>Parse </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events dealing with request processing </Keyword>
+		</Keywords>
+		<Task>HTTP Request Trace Task </Task>
+		<Message>Parsed request (request pointer 0xFFFFE000FF494470, method 6) with URI http://localhost:80/WCFTest/Test.svc?request=iis. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>80</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>6</Task>
+		<Opcode>90</Opcode>
+		<Keywords>0x8000000000000400</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.730007800Z" />
+		<Correlation ActivityID="{2a9bfedd-85a4-0003-ecf3-9e2aa485d101}" />
+		<Execution ProcessID="4" ThreadID="20420" ProcessorID="2" KernelTime="0" UserTime="0" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="ConnectionId">0xE30000046000001E</Data>
+		<Data Name="NoBindBuffers">       3</Data>
+		<Data Name="SecFlags">0x8001</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>ChannelBindAscParams </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events handling authentication (SSPI) and authentication cache </Keyword>
+		</Keywords>
+		<Task>HTTP Authentication Trace Task </Task>
+		<Message>Channel bind ASC parameters: connection 0xE30000046000001E, buffers 3, flags 0x8001 </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>43</EventID>
+		<Version>1</Version>
+		<Level>4</Level>
+		<Task>6</Task>
+		<Opcode>52</Opcode>
+		<Keywords>0x8000000000000400</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.730073100Z" />
+		<Correlation ActivityID="{2a9bfedd-85a4-0003-ecf3-9e2aa485d101}" />
+		<Execution ProcessID="4" ThreadID="20420" ProcessorID="2" KernelTime="0" UserTime="0" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="ConnectionId">0xE30000046000001E</Data>
+		<Data Name="AuthType">Sspi Authenticator</Data>
+		<Data Name="SecStatus">0x0</Data>
+		<Data Name="AuthStatus">       0</Data>
+		<Data Name="ContextAttributes">0x80000</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>SspiCall </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events handling authentication (SSPI) and authentication cache </Keyword>
+		</Keywords>
+		<Task>HTTP Authentication Trace Task </Task>
+		<Message>Attempt (on connection ID 0xE30000046000001E) to authenticate client completed. Authentication type Sspi Authenticator. Security status: 0x0. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>10</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>1</Task>
+		<Opcode>51</Opcode>
+		<Keywords>0x8000000000000016</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.730088500Z" />
+		<Correlation ActivityID="{80000020-0004-e300-b63f-84710c7967bb}" />
+		<Execution ProcessID="4" ThreadID="15628" ProcessorID="3" KernelTime="0" UserTime="0" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="RequestId">0xE300000480000020</Data>
+		<Data Name="HttpStatus">401</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>SendComplete </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events dealing with request processing </Keyword>
+			<Keyword>Flagged on all HTTP events dealing with response handling </Keyword>
+			<Keyword>Flagged on all HTTP events occurring on a connection </Keyword>
+		</Keywords>
+		<Task>HTTP Request Trace Task </Task>
+		<Message>Response ready for send (corresponding to request ID 0xE300000480000020) with status code 401. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>1</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>1</Task>
+		<Opcode>11</Opcode>
+		<Keywords>0x8000000000000102</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.730692700Z" />
+		<Correlation ActivityID="{2a9bfedd-85a4-0003-ecf3-9e2aa485d101}" RelatedActivityID="{80000021-0004-e300-b63f-84710c7967bb}" />
+		<Execution ProcessID="4" ThreadID="18720" ProcessorID="1" KernelTime="0" UserTime="0" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="RequestId">0xE300000480000021</Data>
+		<Data Name="ConnectionId">0xE30000046000001E</Data>
+		<Data Name="RemoteAddrLength">      28</Data>
+		<Data Name="RemoteAddr">[::1]:32832</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>RecvReq </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events dealing with request processing </Keyword>
+			<Keyword>Flagged on all HTTP events triggered on a request queue </Keyword>
+		</Keywords>
+		<Task>HTTP Request Trace Task </Task>
+		<Message>Request received (request ID 0xE300000480000021) on connection (connection ID 0xE30000046000001E) from remote address [::1]:32832. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>2</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>1</Task>
+		<Opcode>12</Opcode>
+		<Keywords>0x8000000000000002</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.730698700Z" />
+		<Correlation ActivityID="{80000021-0004-e300-b63f-84710c7967bb}" />
+		<Execution ProcessID="4" ThreadID="18720" ProcessorID="1" KernelTime="0" UserTime="0" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="RequestObj">0xFFFFE000F789B470</Data>
+		<Data Name="HttpVerb">       6</Data>
+		<Data Name="Url">http://localhost:80/WCFTest/Test.svc?request=iis</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>Parse </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events dealing with request processing </Keyword>
+		</Keywords>
+		<Task>HTTP Request Trace Task </Task>
+		<Message>Parsed request (request pointer 0xFFFFE000F789B470, method 6) with URI http://localhost:80/WCFTest/Test.svc?request=iis. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>80</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>6</Task>
+		<Opcode>90</Opcode>
+		<Keywords>0x8000000000000400</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.730751000Z" />
+		<Correlation ActivityID="{2a9bfedd-85a4-0003-ecf3-9e2aa485d101}" />
+		<Execution ProcessID="4" ThreadID="20008" ProcessorID="1" KernelTime="0" UserTime="0" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="ConnectionId">0xE30000046000001E</Data>
+		<Data Name="NoBindBuffers">       3</Data>
+		<Data Name="SecFlags">0x8001</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>ChannelBindAscParams </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events handling authentication (SSPI) and authentication cache </Keyword>
+		</Keywords>
+		<Task>HTTP Authentication Trace Task </Task>
+		<Message>Channel bind ASC parameters: connection 0xE30000046000001E, buffers 3, flags 0x8001 </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>43</EventID>
+		<Version>1</Version>
+		<Level>4</Level>
+		<Task>6</Task>
+		<Opcode>52</Opcode>
+		<Keywords>0x8000000000000400</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.730874100Z" />
+		<Correlation ActivityID="{2a9bfedd-85a4-0003-ecf3-9e2aa485d101}" />
+		<Execution ProcessID="4" ThreadID="20008" ProcessorID="1" KernelTime="0" UserTime="0" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="ConnectionId">0xE30000046000001E</Data>
+		<Data Name="AuthType">Sspi Authenticator</Data>
+		<Data Name="SecStatus">0x0</Data>
+		<Data Name="AuthStatus">       0</Data>
+		<Data Name="ContextAttributes">0x80001</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>SspiCall </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events handling authentication (SSPI) and authentication cache </Keyword>
+		</Keywords>
+		<Task>HTTP Authentication Trace Task </Task>
+		<Message>Attempt (on connection ID 0xE30000046000001E) to authenticate client completed. Authentication type Sspi Authenticator. Security status: 0x0. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>3</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>1</Task>
+		<Opcode>13</Opcode>
+		<Keywords>0x8000000000000102</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.730905900Z" />
+		<Correlation ActivityID="{80000021-0004-e300-b63f-84710c7967bb}" />
+		<Execution ProcessID="4" ThreadID="20008" ProcessorID="1" KernelTime="0" UserTime="0" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="RequestObj">0xFFFFE000F789B470</Data>
+		<Data Name="RequestId">0xE300000480000021</Data>
+		<Data Name="SiteId">       1</Data>
+		<Data Name="RequestQueueName">DefaultAppPool</Data>
+		<Data Name="Url">http://localhost:80/WCFTest/Test.svc?request=iis</Data>
+		<Data Name="Status">       0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>Deliver </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events dealing with request processing </Keyword>
+			<Keyword>Flagged on all HTTP events triggered on a request queue </Keyword>
+		</Keywords>
+		<Task>HTTP Request Trace Task </Task>
+		<Message>Delivered request to server application (request pointer 0xFFFFE000F789B470, request ID 0xE300000480000021, site ID 1) from request queue DefaultAppPool for URI http://localhost:80/WCFTest/Test.svc?request=iis with status 0. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>9</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>1</Task>
+		<Opcode>18</Opcode>
+		<Keywords>0x8000000000000006</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.743302000Z" />
+		<Correlation ActivityID="{80000021-0004-e300-b63f-84710c7967bb}" />
+		<Execution ProcessID="7216" ThreadID="3924" ProcessorID="3" KernelTime="0" UserTime="15" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="RequestId">0xE300000480000021</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>FastRespLast </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events dealing with request processing </Keyword>
+			<Keyword>Flagged on all HTTP events dealing with response handling </Keyword>
+		</Keywords>
+		<Task>HTTP Request Trace Task </Task>
+		<Message>Server application passed the last response (corresponding to request ID 0xE300000480000021). </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>8</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>1</Task>
+		<Opcode>19</Opcode>
+		<Keywords>0x8000000000000006</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.743306200Z" />
+		<Correlation ActivityID="{80000021-0004-e300-b63f-84710c7967bb}" />
+		<Execution ProcessID="7216" ThreadID="3924" ProcessorID="3" KernelTime="0" UserTime="15" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="RequestId">0xE300000480000021</Data>
+		<Data Name="ConnectionId">0xE30000046000001E</Data>
+		<Data Name="StatusCode">200</Data>
+		<Data Name="Verb">POST</Data>
+		<Data Name="HeaderLength">       0</Data>
+		<Data Name="EntityChunkCount">2</Data>
+		<Data Name="CachePolicy">       0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>FastResp </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events dealing with request processing </Keyword>
+			<Keyword>Flagged on all HTTP events dealing with response handling </Keyword>
+		</Keywords>
+		<Task>HTTP Request Trace Task </Task>
+		<Message>Server application passed response (request ID 0xE300000480000021, connection ID 0xE30000046000001E, method POST, header length 0, number of entity chunks 2, cache policy 0) with status code 200. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>12</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>1</Task>
+		<Opcode>21</Opcode>
+		<Keywords>0x8000000000000006</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.743358000Z" />
+		<Correlation ActivityID="{80000021-0004-e300-b63f-84710c7967bb}" />
+		<Execution ProcessID="7216" ThreadID="3924" ProcessorID="3" KernelTime="0" UserTime="15" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="RequestId">0xE300000480000021</Data>
+		<Data Name="HttpStatus">200</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>FastSend </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events dealing with request processing </Keyword>
+			<Keyword>Flagged on all HTTP events dealing with response handling </Keyword>
+		</Keywords>
+		<Task>HTTP Request Trace Task </Task>
+		<Message>Queued last response (corresponding to request ID 0xE300000480000021) for sending. Status code is 200. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>51</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>9</Task>
+		<Opcode>61</Opcode>
+		<Keywords>0x8000000000000800</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.743362200Z" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="4" ThreadID="552" ProcessorID="4" KernelTime="0" UserTime="0" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="Status">0x0</Data>
+		<Data Name="Handle">0xFFFFFFFF80002578</Data>
+		<Data Name="Type">       0</Data>
+		<Data Name="Group">       0</Data>
+		<Data Name="Format">       0</Data>
+		<Data Name="ResType">CacheMiss</Data>
+		<Data Name="SiteId">       0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>LogFileWrite </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events dealing with error log activities </Keyword>
+		</Keywords>
+		<Task>HTTP Logging Trace Task </Task>
+		<Message>Entry has been written to ResponseLogging  log file. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>1</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>1</Task>
+		<Opcode>11</Opcode>
+		<Keywords>0x8000000000000102</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.744945600Z" />
+		<Correlation ActivityID="{2a9bfedd-85a4-0003-ecf3-9e2aa485d101}" RelatedActivityID="{80000022-0004-e300-b63f-84710c7967bb}" />
+		<Execution ProcessID="4" ThreadID="19600" ProcessorID="2" KernelTime="0" UserTime="0" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="RequestId">0xE300000480000022</Data>
+		<Data Name="ConnectionId">0xE30000046000001E</Data>
+		<Data Name="RemoteAddrLength">      28</Data>
+		<Data Name="RemoteAddr">[::1]:32832</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>RecvReq </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events dealing with request processing </Keyword>
+			<Keyword>Flagged on all HTTP events triggered on a request queue </Keyword>
+		</Keywords>
+		<Task>HTTP Request Trace Task </Task>
+		<Message>Request received (request ID 0xE300000480000022) on connection (connection ID 0xE30000046000001E) from remote address [::1]:32832. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>2</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>1</Task>
+		<Opcode>12</Opcode>
+		<Keywords>0x8000000000000002</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.744953600Z" />
+		<Correlation ActivityID="{80000022-0004-e300-b63f-84710c7967bb}" />
+		<Execution ProcessID="4" ThreadID="19600" ProcessorID="2" KernelTime="0" UserTime="0" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="RequestObj">0xFFFFE00100A6D010</Data>
+		<Data Name="HttpVerb">       6</Data>
+		<Data Name="Url">http://localhost:80/WCFTest/Test.svc?request=iis</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>Parse </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events dealing with request processing </Keyword>
+		</Keywords>
+		<Task>HTTP Request Trace Task </Task>
+		<Message>Parsed request (request pointer 0xFFFFE00100A6D010, method 6) with URI http://localhost:80/WCFTest/Test.svc?request=iis. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>43</EventID>
+		<Version>1</Version>
+		<Level>4</Level>
+		<Task>6</Task>
+		<Opcode>52</Opcode>
+		<Keywords>0x8000000000000400</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.744987600Z" />
+		<Correlation ActivityID="{2a9bfedd-85a4-0003-ecf3-9e2aa485d101}" />
+		<Execution ProcessID="4" ThreadID="19600" ProcessorID="2" KernelTime="0" UserTime="0" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="ConnectionId">0xE30000046000001E</Data>
+		<Data Name="AuthType">Fast Authenticator</Data>
+		<Data Name="SecStatus">0x0</Data>
+		<Data Name="AuthStatus">       0</Data>
+		<Data Name="ContextAttributes">0x0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>SspiCall </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events handling authentication (SSPI) and authentication cache </Keyword>
+		</Keywords>
+		<Task>HTTP Authentication Trace Task </Task>
+		<Message>Attempt (on connection ID 0xE30000046000001E) to authenticate client completed. Authentication type Fast Authenticator. Security status: 0x0. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>3</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>1</Task>
+		<Opcode>13</Opcode>
+		<Keywords>0x8000000000000102</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.745034300Z" />
+		<Correlation ActivityID="{80000022-0004-e300-b63f-84710c7967bb}" />
+		<Execution ProcessID="4" ThreadID="19600" ProcessorID="2" KernelTime="0" UserTime="0" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="RequestObj">0xFFFFE00100A6D010</Data>
+		<Data Name="RequestId">0xE300000480000022</Data>
+		<Data Name="SiteId">       1</Data>
+		<Data Name="RequestQueueName">DefaultAppPool</Data>
+		<Data Name="Url">http://localhost:80/WCFTest/Test.svc?request=iis</Data>
+		<Data Name="Status">       0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>Deliver </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events dealing with request processing </Keyword>
+			<Keyword>Flagged on all HTTP events triggered on a request queue </Keyword>
+		</Keywords>
+		<Task>HTTP Request Trace Task </Task>
+		<Message>Delivered request to server application (request pointer 0xFFFFE00100A6D010, request ID 0xE300000480000022, site ID 1) from request queue DefaultAppPool for URI http://localhost:80/WCFTest/Test.svc?request=iis with status 0. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>9</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>1</Task>
+		<Opcode>18</Opcode>
+		<Keywords>0x8000000000000006</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.746174500Z" />
+		<Correlation ActivityID="{80000022-0004-e300-b63f-84710c7967bb}" />
+		<Execution ProcessID="7216" ThreadID="5260" ProcessorID="3" KernelTime="0" UserTime="45" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="RequestId">0xE300000480000022</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>FastRespLast </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events dealing with request processing </Keyword>
+			<Keyword>Flagged on all HTTP events dealing with response handling </Keyword>
+		</Keywords>
+		<Task>HTTP Request Trace Task </Task>
+		<Message>Server application passed the last response (corresponding to request ID 0xE300000480000022). </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>8</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>1</Task>
+		<Opcode>19</Opcode>
+		<Keywords>0x8000000000000006</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.746178200Z" />
+		<Correlation ActivityID="{80000022-0004-e300-b63f-84710c7967bb}" />
+		<Execution ProcessID="7216" ThreadID="5260" ProcessorID="3" KernelTime="0" UserTime="45" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="RequestId">0xE300000480000022</Data>
+		<Data Name="ConnectionId">0xE30000046000001E</Data>
+		<Data Name="StatusCode">200</Data>
+		<Data Name="Verb">POST</Data>
+		<Data Name="HeaderLength">       0</Data>
+		<Data Name="EntityChunkCount">2</Data>
+		<Data Name="CachePolicy">       0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>FastResp </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events dealing with request processing </Keyword>
+			<Keyword>Flagged on all HTTP events dealing with response handling </Keyword>
+		</Keywords>
+		<Task>HTTP Request Trace Task </Task>
+		<Message>Server application passed response (request ID 0xE300000480000022, connection ID 0xE30000046000001E, method POST, header length 0, number of entity chunks 2, cache policy 0) with status code 200. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>12</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>1</Task>
+		<Opcode>21</Opcode>
+		<Keywords>0x8000000000000006</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.746199700Z" />
+		<Correlation ActivityID="{80000022-0004-e300-b63f-84710c7967bb}" />
+		<Execution ProcessID="7216" ThreadID="5260" ProcessorID="3" KernelTime="0" UserTime="45" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="RequestId">0xE300000480000022</Data>
+		<Data Name="HttpStatus">200</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>FastSend </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events dealing with request processing </Keyword>
+			<Keyword>Flagged on all HTTP events dealing with response handling </Keyword>
+		</Keywords>
+		<Task>HTTP Request Trace Task </Task>
+		<Message>Queued last response (corresponding to request ID 0xE300000480000022) for sending. Status code is 200. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>51</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>9</Task>
+		<Opcode>61</Opcode>
+		<Keywords>0x8000000000000800</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.746202500Z" />
+		<Correlation ActivityID="{00000000-0000-0000-0000-000000000000}" />
+		<Execution ProcessID="4" ThreadID="552" ProcessorID="4" KernelTime="0" UserTime="0" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="Status">0x0</Data>
+		<Data Name="Handle">0xFFFFFFFF80002578</Data>
+		<Data Name="Type">       0</Data>
+		<Data Name="Group">       0</Data>
+		<Data Name="Format">       0</Data>
+		<Data Name="ResType">CacheMiss</Data>
+		<Data Name="SiteId">       0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>LogFileWrite </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events dealing with error log activities </Keyword>
+		</Keywords>
+		<Task>HTTP Logging Trace Task </Task>
+		<Message>Entry has been written to ResponseLogging  log file. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>23</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>4</Task>
+		<Opcode>29</Opcode>
+		<Keywords>0x8000000000000010</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.746692800Z" />
+		<Correlation ActivityID="{2a9bfedd-85a4-0003-ecf3-9e2aa485d101}" />
+		<Execution ProcessID="17320" ThreadID="4348" ProcessorID="2" KernelTime="0" UserTime="0" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="ConnectionObj">0xFFFFE000F75EBAE0</Data>
+		<Data Name="Abortive">       1</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>ConnClose </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events occurring on a connection </Keyword>
+		</Keywords>
+		<Task>HTTP Connection Trace Task </Task>
+		<Message>Client closed the connection (connection pointer 0xFFFFE000F75EBAE0). Status of whether closed by TCP Reset: 1. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+	<System>
+		<Provider Name="Microsoft-Windows-HttpService" Guid="{dd5ef90a-6398-47a4-ad34-4dcecdef795f}" />
+		<EventID>24</EventID>
+		<Version>0</Version>
+		<Level>4</Level>
+		<Task>4</Task>
+		<Opcode>30</Opcode>
+		<Keywords>0x8000000000000010</Keywords>
+		<TimeCreated SystemTime="2016-03-27T19:26:09.746693300Z" />
+		<Correlation ActivityID="{2a9bfedd-85a4-0003-ecf3-9e2aa485d101}" />
+		<Execution ProcessID="17320" ThreadID="4348" ProcessorID="2" KernelTime="0" UserTime="0" />
+		<Channel>Microsoft-Windows-HttpService/Trace</Channel>
+		<Computer />
+	</System>
+	<EventData>
+		<Data Name="ConnectionObj">0xFFFFE000F75EBAE0</Data>
+	</EventData>
+	<RenderingInfo Culture="en-GB">
+		<Level>Information </Level>
+		<Opcode>ConnCleanup </Opcode>
+		<Keywords>
+			<Keyword>Flagged on all HTTP events occurring on a connection </Keyword>
+		</Keywords>
+		<Task>HTTP Connection Trace Task </Task>
+		<Message>Connection (connection pointer 0xFFFFE000F75EBAE0) cleanup started due to either the sending of a TCP Reset, receiving of a TCP Reset, or after the mutual exchange of TCP Fins. </Message>
+		<Channel>HTTP Service Channel </Channel>
+		<Provider>Microsoft-Windows-HttpService </Provider>
+	</RenderingInfo>
+</Event>
+</Events>
